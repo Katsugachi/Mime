@@ -17,7 +17,7 @@ function checkTodaysEventsOnOnline() {
       chrome.storage.local.set({ [ONLINE_SEEN_KEY]: today });
       chrome.notifications.create({
         type: 'basic',
-        iconUrl: 'icon.svg',
+        iconUrl: 'icon128.png',
         title: "Today's Events",
         message: todays.map((e) => e.title + ' — ' + e.displayTime).join('\n')
       });

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Mime",
+  "version": "1.0.0",
+  "description": "Minimalist off-black and paper-white two-button calendar and reminders.",
+  "permissions": [
+    "storage",
+    "notifications"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Mime"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
